@@ -59,7 +59,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 20,
-            "scty": 15
+            "scty": -15
         }
     },
     {
@@ -68,7 +68,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 30,
-            "scty": 25
+            "scty": -25
         }
     }
 ];
