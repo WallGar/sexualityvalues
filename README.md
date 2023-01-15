@@ -1,2 +1,2 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Might, Liberty, Tradition, Wealth, Peace, Authority, and Progress.
+# SexualityValues.github.io
+The Sexuality Quiz measures individuals' Sexuality values, including Male, Andro, Sexual, Romantic, Female, Fin, Asexual, and Aromantic.
