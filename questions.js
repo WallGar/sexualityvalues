@@ -41,7 +41,7 @@ questions = [
             "econ": 0,
             "dipl": -25,
             "govt": 20,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -50,7 +50,7 @@ questions = [
             "econ": 0,
             "dipl": 25,
             "govt": 20,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -63,12 +63,12 @@ questions = [
         }
     },
     {
-        "question": "No me atrae ningun genero romaticamente.",
+        "question": "No me atrae ningun genero.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 30,
-            "scty": 0
+            "scty": 25
         }
     }
 ];
