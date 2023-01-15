@@ -1,694 +1,307 @@
 ideologies = [
     {
-        "name": "Anarcho-Communism",
+        "name": "Aromantic",
         "stats": {
-            "econ": 100,
+            "econ": 50,
             "dipl": 50,
-            "govt": 100,
-            "scty": 90
+            "govt": 0,
+            "scty": 50
         }
     },
     {
-        "name": "Communalism",
+        "name": "Asexual",
         "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 90,
-            "scty": 90
+            "econ": 50,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 0
         }
     },
     {
-        "name": "Soulism",
+        "name": "Aroace",
         "stats": {
-            "econ": 100,
+            "econ": 50,
+            "dipl": 50,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Agender/Nonbinary Mascic",
+        "stats": {
+            "econ": 50,
             "dipl": 100,
-            "govt": 100,
-            "scty": 90
+            "govt": 50,
+            "scty": 50
         }
     },
     {
-        "name": "Anarcha-Feminism",
-        "stats": {
-            "econ": 95,
-            "dipl": 90,
-            "govt": 100,
-            "scty": 100
-        }
-    },
-    {
-       "name": "English Socialism",
+       "name": "Demiromantic",
        "stats": {
-           "econ": 75,
-           "dipl": 0,
-           "govt": 0,
+           "econ": 50,
+           "dipl": 50,
+           "govt": 20,
            "scty": 50
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "Demisexual",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Demian",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 20,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Gay",
         "stats": {
             "econ": 100,
             "dipl": 100,
-            "govt": 60,
-            "scty": 80
+            "govt": 50,
+            "scty": 50
         }
     },
     {
-        "name": "Orthodox Marxism",
+        "name": "Lesbian",
+        "stats": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Straight Man",
         "stats": {
             "econ": 100,
             "dipl": 100,
-            "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Marxist-Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 0,
+            "govt": 50,
             "scty": 50
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "Bisexual Girl",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Utopian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
-        }
-    },
-    {
-        "name": "Juche",
-        "stats": {
-            "econ": 100,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
-    },
-    {
-        "name": "National Bolshevism",
-        "stats": {
-            "econ": 100,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Progressive Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Conservative Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Religious Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Social Authoritarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 20,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
+            "econ": 0,
             "dipl": 50,
             "govt": 50,
             "scty": 50
         }
     },
     {
-        "name": "Liberalism",
+        "name": "Straight Girl",
         "stats": {
-            "econ": 45,
-            "dipl": 50,
-            "govt": 55,
-            "scty": 60
+            "econ": 0,
+            "dipl": 0,
+            "govt": 50,
+            "scty": 50
         }
     },
     {
-        "name": "Religious Anarchism",
+        "name": "Bisexual Boy",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
-    },
-    {
-        "name": "National Populism",
-        "stats": {
-            "econ": 55,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Liberal Conservatism",
-        "stats": {
-            "econ": 40,
+            "econ": 100,
             "dipl": 50,
             "govt": 50,
-            "scty": 45
+            "scty": 50
         }
     },
     {
-        "name": "Reactionary",
+        "name": "Straight Boy Asexual",
         "stats": {
-            "econ": 10,
-            "dipl": 35,
-            "govt": 25,
+            "econ": 100,
+            "dipl": 100,
+            "govt": 50,
             "scty": 0
         }
     },
     {
-        "name": "Social Libertarianism",
+        "name": "Straight Girl Asexual",
         "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
+            "econ": 0,
+            "dipl": 0,
+            "govt": 50,
+            "scty": 0
         }
     },
     {
-        "name": "Libertarianism",
+        "name": "Straight Boy Aromantic",
         "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
+            "econ": 100,
+            "dipl": 100,
+            "govt": 0,
             "scty": 50
         }
     },
     {
-        "name": "National Socialism",
+        "name": "Straight Girl Aromantic",
         "stats": {
-            "econ": 45,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 50
         }
     },
     {
-        "name": "Avaritionism",
+        "name": "Gay Asexual",
+        "stats": {
+            "econ": 100,
+            "dipl": 0,
+            "govt": 50,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Lesbian Asexual",
+        "stats": {
+            "econ": 0,
+            "dipl": 100,
+            "govt": 50,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Bisexual Boy Asexual",
+        "stats": {
+            "econ": 100,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Bisexual Girl Asexual",
         "stats": {
             "econ": 0,
             "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "National Capitalism",
-        "stats": {
-            "econ": 5,
-            "dipl": 20,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
             "govt": 50,
-            "scty": 30
+            "scty": 0
         }
     },
     {
-        "name": "Neo-Liberalism",
+        "name": "Straight Boy Aromantic",
         "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 60,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Socialism with Chinese Characteristics",
-        "stats": {
-            "econ": 60,
-            "dipl": 10,
-            "govt": 10,
+            "econ": 100,
+            "dipl": 100,
+            "govt": 0,
             "scty": 50
         }
     },
     {
-        "name": "Right-Libertarianism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Objectivism",
-        "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Corpotocracy",
+        "name": "Straight Girl Aromantic",
         "stats": {
             "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Heteroflexibility Boy",
+        "stats": {
+            "econ": 100,
+            "dipl": 80,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Heteroflexibility Girl",
+        "stats": {
+            "econ": 0,
+            "dipl": 20,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Homoflexibility Boy",
+        "stats": {
+            "econ": 100,
+            "dipl": 20,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Homoflexibility Girl",
+        "stats": {
+            "econ": 0,
+            "dipl": 80,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Agender/Nonbinary Femaric",
+        "stats": {
+            "econ": 50,
+            "dipl": 100,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Agender/Nonbinary Aromantic",
+        "stats": {
+            "econ": 50,
             "dipl": 50,
             "govt": 0,
             "scty": 50
         }
     },
     {
-        "name": "Paleolibertarianism",
+        "name": "Agender/Nonbinary Asexual",
         "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 20
-       }
-    },
-    {
-        "name": "Pink Capitalism",
-        "stats": {
-            "econ": 10,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 85
-        }
-    },
-    {
-        "name": "Dark Enlightenment",
-        "stats": {
-            "econ": 5,
+            "econ": 50,
             "dipl": 50,
             "govt": 50,
-            "scty": 5
+            "scty": 0
         }
     },
     {
-        "name": "Pink Capitalism",
-        "stats": {
-            "econ": 10,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 85
-        }
-    },
-    {
-        "name": "Fordism",
-        "stats": {
-            "econ": 5,
-            "dipl": 100,
-            "govt": 5,
-            "scty": 100
-        }
-    },
-    {
-        "name": "National Anarchism",
-        "stats": {
-            "econ": 60,
-            "dipl": 20,
-            "govt": 90,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Dengism",
-        "stats": {
-            "econ": 50,
-            "dipl": 30,
-            "govt": 15,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Social Nationalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 25,
-            "govt": 25,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Anarcho-Primitivism",
+        "name": "Agender/Nonbinary Aroace",
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "govt": 100,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "name": "Longism",
-        "stats": {
-            "econ": 60,
-            "dipl": 30,
-            "govt": 100,
-            "scty": 0
-        }
-    },
-    {
-        "name": "Archeofuturism",
+        "name": "Agender/Nonbinary Ceterosexual",
         "stats": {
             "econ": 50,
-            "dipl": 5,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Strasserism",
-        "stats": {
-            "econ": 75,
-            "dipl": 5,
-            "govt": 15,
-            "scty": 20
-        }
-    },
-    {
-        "name": "State Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 5,
-            "scty": 90
-        }
-    },
-    {
-        "name": "Revolutionary Nationalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 5,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Clerical Fascism",
-        "stats": {
-            "econ": 60,
-            "dipl": 5,
-            "govt": 5,
-            "scty": 2
-        }
-    },
-    {
-        "name": "Third International Theory",
-        "stats": {
-            "econ": 70,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 10
-        }
-    },
-    {
-        "name": "National Communism",
-        "stats": {
-            "econ": 95,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Integralism",
-        "stats": {
-            "econ": 60,
-            "dipl": 20,
-            "govt": 30,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Korwinism",
-        "stats": {
-            "econ": 0,
-            "dipl": 25,
-            "govt": 70,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Tribal Primitivism",
-        "stats": {
-            "econ": 50,
-            "dipl": 0,
-            "govt": 100,
-            "scty": 0
-        }
-    },
-    {
-        "name": "Religious Internationalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 100,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Anarcho-Nihilism",
-        "stats": {
-            "econ": 70,
-            "dipl": 100,
-            "govt": 100,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Titoism",
-        "stats": {
-            "econ": 70,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Minarcho-Titoism",
-        "stats": {
-            "econ": 70,
-            "dipl": 40,
-            "govt": 70,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
+            "dipl": 50,
             "govt": 50,
             "scty": 50
         }
     },
     {
-        "name": "Anarcho-Capitalism",
+        "name": "Ceterosexual Boy",
+        "stats": {
+            "econ": 100,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Ceterosexual Girl",
         "stats": {
             "econ": 0,
             "dipl": 50,
-            "govt": 100,
+            "govt": 50,
             "scty": 50
         }
     }
