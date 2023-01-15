@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "Aromantic",
+        "name": "Aromantico",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -27,7 +27,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Mascic",
+        "name": "Agenero/Nobinario/Fluido Mascic",
         "stats": {
             "econ": 50,
             "dipl": 100,
@@ -66,22 +66,22 @@ ideologies = [
         "name": "Gay",
         "stats": {
             "econ": 100,
-            "dipl": 100,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Lesbian",
-        "stats": {
-            "econ": 0,
             "dipl": 0,
             "govt": 50,
             "scty": 50
         }
     },
     {
-        "name": "Straight Man",
+        "name": "Lesbiana",
+        "stats": {
+            "econ": 0,
+            "dipl": 100,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Hombre Heterosexual",
         "stats": {
             "econ": 100,
             "dipl": 100,
@@ -90,7 +90,7 @@ ideologies = [
         }
     },
     {
-        "name": "Bisexual Girl",
+        "name": "Mujer Bisexual7Pansexual",
         "stats": {
             "econ": 0,
             "dipl": 50,
@@ -99,7 +99,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Girl",
+        "name": "Mujer Heterosexual",
         "stats": {
             "econ": 0,
             "dipl": 0,
@@ -108,7 +108,7 @@ ideologies = [
         }
     },
     {
-        "name": "Bisexual Boy",
+        "name": "Chico Bisexual/Pansexual",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -117,7 +117,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Boy Asexual",
+        "name": "Hombre Asexual Heteroromantico",
         "stats": {
             "econ": 100,
             "dipl": 100,
@@ -126,7 +126,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Girl Asexual",
+        "name": "Mujer Asexual Heteroromantico",
         "stats": {
             "econ": 0,
             "dipl": 0,
@@ -135,7 +135,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Boy Aromantic",
+        "name": "Hombre Heterosexual Aromantico",
         "stats": {
             "econ": 100,
             "dipl": 100,
@@ -144,7 +144,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Girl Aromantic",
+        "name": "Mujer Heterosexual Aromantico",
         "stats": {
             "econ": 0,
             "dipl": 0,
@@ -162,7 +162,7 @@ ideologies = [
         }
     },
     {
-        "name": "Lesbian Asexual",
+        "name": "Lesbiana Asexual",
         "stats": {
             "econ": 0,
             "dipl": 100,
@@ -171,7 +171,7 @@ ideologies = [
         }
     },
     {
-        "name": "Bisexual Boy Asexual",
+        "name": "Hombre Asexual Biromantico",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -180,7 +180,7 @@ ideologies = [
         }
     },
     {
-        "name": "Bisexual Girl Asexual",
+        "name": "Mujer Asexual Biromantico",
         "stats": {
             "econ": 0,
             "dipl": 50,
@@ -189,25 +189,7 @@ ideologies = [
         }
     },
     {
-        "name": "Straight Boy Aromantic",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Straight Girl Aromantic",
-        "stats": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Heteroflexibility Boy",
+        "name": "Hombre Heteroflexible",
         "stats": {
             "econ": 100,
             "dipl": 80,
@@ -216,7 +198,7 @@ ideologies = [
         }
     },
     {
-        "name": "Heteroflexibility Girl",
+        "name": "Mujer Heteroflexible",
         "stats": {
             "econ": 0,
             "dipl": 20,
@@ -225,7 +207,7 @@ ideologies = [
         }
     },
     {
-        "name": "Homoflexibility Boy",
+        "name": "Hombre Homoflexible",
         "stats": {
             "econ": 100,
             "dipl": 20,
@@ -234,7 +216,7 @@ ideologies = [
         }
     },
     {
-        "name": "Homoflexibility Girl",
+        "name": "Mujer Homoflexible",
         "stats": {
             "econ": 0,
             "dipl": 80,
@@ -243,7 +225,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Femaric",
+        "name": "Agenero/Nobinario/Fluido Femaric",
         "stats": {
             "econ": 50,
             "dipl": 100,
@@ -252,7 +234,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Aromantic",
+        "name": "Agenero/Nobinario/Fluido Aromantico",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -261,7 +243,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Asexual",
+        "name": "Agenero/Nobinario/Fluido Asexual",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -270,7 +252,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Aroace",
+        "name": "Agenero/Nobinario/Fluido Aroace",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -279,7 +261,7 @@ ideologies = [
         }
     },
     {
-        "name": "Agender/Nonbinary Ceterosexual",
+        "name": "Agenero/Nobinario Ceterosexual",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -288,7 +270,7 @@ ideologies = [
         }
     },
     {
-        "name": "Ceterosexual Boy",
+        "name": "Hombre Ceterosexual",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -297,7 +279,7 @@ ideologies = [
         }
     },
     {
-        "name": "Ceterosexual Girl",
+        "name": "Mujer Ceterosexual",
         "stats": {
             "econ": 0,
             "dipl": 50,
